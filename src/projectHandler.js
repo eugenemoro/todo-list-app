@@ -6,6 +6,7 @@ export default function ProjectHandler() {
   let projectList = [];
   const todoHandler = new TodoHandler();
   const dataProvider = new DataProvider();
+  console.log(dataProvider);
   
   const reviveProjectList = function(data) {
     const projectList = [];
